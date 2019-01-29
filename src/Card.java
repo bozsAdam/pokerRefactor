@@ -25,7 +25,7 @@ public class Card {
     }
 
     private void colorValidation() {
-        List<String> colors = new ArrayList<>(Arrays.asList("S", "C", "D", "H"));
+        List<String> colors = new ArrayList<>(Arrays.asList("S", "C", "D", "H","s","c","d","h"));
         if (!colors.contains(cardColor)) throw new IllegalArgumentException("card color isn't valid: " + cardColor);
     }
 
